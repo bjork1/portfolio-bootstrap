@@ -1,4 +1,64 @@
+
+
+.top {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+
 .name {
     font-size: 48px;
-    color: purple;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
+
+
+#color {
+    color: #777777;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+
+}
+
+.middle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: url(trees.png);
+}
+
+.bio {
+    background-color: white;
+}
+
+.photos {
+    margin: 15px;
+    margin-left: 40px;
+}
+
+.about {
+    font-size: 36px;
+    color: #4aaaa5;
+    border-bottom: 5px solid #777777;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.image {
+    transform: rotate(180deg);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+#form {
+    margin: 20px;
+}
+
+.footer {
+    background-color: #666666;
+    height: 50px;
+    border-top: 5px solid #4aaaa5;
