@@ -5,9 +5,9 @@
 }
 
 .name {
-    font-size: 48px;
-    color: black;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: coral;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 64px;
 }
 
 
@@ -19,15 +19,14 @@
 
 #first {
  
-    background-image: url(mountains.jpg);
+    background: url(mountains.jpg) no-repeat center center fixed;
     background-size: 100% 100%;
-    background-repeat: no-repeat;
     
 }
 
 #code {
     background-image: url(morocco.png);
-        background-size: 100%;
+        background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -57,10 +56,7 @@
     margin: 20px;
 }
 
-.footer {
-    background-color: black;
-    height: 20px;
-}
+
 
 .middle {
     padding-bottom: 50px;

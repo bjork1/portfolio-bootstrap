@@ -8,7 +8,9 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap.css">
-
+    <script src="https://use.fontawesome.com/2f13b81004.js"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
 </head>
@@ -20,14 +22,26 @@
 
             </div>
           <div class="col-sm-4 name">
-              Andrew Bjork
+              Create. Inpire. 
           </div>
           <div class= "col-sm-1">
 
+           
+
+            
+
+
           </div>
           <div class="col-sm-3">
+
+            <a href="https://github.com/bjork1" target="_blank" class="btn btn-primary" id = "github">Github</a>
+
+
+            <a href="Andrew Bjork - resume.pdf" download="PDF" target = "_blank"> 
+              <button type="submit" class="btn btn-outline-primary" id = "try">View Resume</button>
+          </a> 
          
-  
+  <!--
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"></a>
         <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,12 +55,15 @@
           </div>
         </div>
       </nav>
+
+
+    -->
    
     </div>
+  </div>
     <div class="col-sm-2">
-    </div>
 </div>
-<div class ="row middle">
+<div class ="row middle" id = "change">
     <div class = col-sm-2>
 
     </div>
@@ -54,18 +71,17 @@
     <div class = "col-sm-4">
     
  
-    <img class="image" src="IMG_0669.JPG" alt="My image goes here" height="225px">
-
-  </div>
+      <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="bjorkandrew"><a class="LI-simple-link" href='https://www.linkedin.com/in/bjorkandrew?trk=profile-badge'>Andrew B.</a></div>  </div>
 
   <div class = "col-sm-4">
 
     <div class="card" style="width: 24rem;">
       <div class="card-body">
         <h5 class="card-title">Thanks for Visiting my Portfolio</h5>
-        <p class="card-text">I am a full stack web developer and have experience working in business environments and studying agile. Please check out my projects on Github and Connect on LinkedIn! </p>
-        <a href="https://www.linkedin.com/in/bjorkandrew/" target="_blank" class="btn btn-primary" id = "linkedin">Connect</a>
-        <a href="https://github.com/bjork1" target="_blank" class="btn btn-primary" id = "github">Github</a>
+        <p class="card-text">I am a full stack web developer and have experience working in business environments and studying agile. Please check out my recent projects and view them on Github! </p>
+        <button type = "button" class="btn btn-primary" id = "quiz">Capitals Quiz</button>      
+        <button type = "button" class="btn btn-primary" id = "weather">Weather Info</button>      
+
 
       </div>
       </div>
@@ -75,12 +91,9 @@
 </div>
 
 
-<div class ="row footer">
-
 
 </div>
-</div>
 
-    
+    <script src = "script.js"></script>
 </body>
 </html>
