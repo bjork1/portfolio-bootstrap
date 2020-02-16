@@ -1,14 +1,12 @@
 
 
 .top {
-    background-color: white;
-    border-bottom: 1px solid #cccccc;
+    background:rgba(255,255,255, 0.4);
 }
 
 .name {
     font-size: 48px;
-    background-color: #4aaaa5;
-    color: white;
+    color: black;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
@@ -19,15 +17,15 @@
 
 }
 
-.middle {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-image: url(trees.png);
+body {
+ 
+    background-image: url(mountains.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
 }
 
-.bio {
-    background-color: white;
-}
+
 
 .photos {
     margin: 15px;
@@ -37,7 +35,6 @@
 .about {
     font-size: 36px;
     color: #4aaaa5;
-    border-bottom: 5px solid #777777;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
