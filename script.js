@@ -16,9 +16,39 @@ jQuery('#quiz').click(function () {
 
 
     });
+
+    $(".links").html(
+
+        `
+        <a href="https://bjork1.github.io/quiz/" target="_blank" class="btn btn-outline-info">View Site</a>
+
+        <a href="https://github.com/bjork1/quiz" target="_blank" class="btn btn-outline-warning">View Code</a>
+
+        
+        `
+    )
   
 
 document.getElementById("change").innerHTML =
+
+
+
+
+`
+<div class = "col-sm-2">
+</div>
+
+<div class = "col-sm-8">
+<iframe src = "https://bjork1.github.io/quiz/" width = "100%" height = "500"></iframe>
+</div>
+
+<div class = "col-sm-2">
+</div>
+
+`;
+
+
+/*
 `
 <div class = "col-sm-2">
   
@@ -47,6 +77,7 @@ document.getElementById("change").innerHTML =
   </div>
 
 `;
+*/
 
 });
 
@@ -68,15 +99,47 @@ jQuery('#weather').click(function () {
 
 
     });
+
+
+    document.getElementById("change").innerHTML =
+
+
+
+
+`
+<div class = "col-sm-1">
+</div>
+
+<div class = "col-sm-10">
+<iframe src = "https://bjork1.github.io/weather/" width = "100%" height = "600"></iframe>
+</div>
+
+<div class = "col-sm-1">
+</div>
+
+`;
+
+$(".links").html(
+
+    `
+    <a href="https://bjork1.github.io/weather/" target="_blank" class="btn btn-outline-info">View Site</a>
+
+    <a href="https://github.com/bjork1/weather" target="_blank" class="btn btn-outline-warning">View Code</a>
+
+    
+    `
+)
   
+
+/*
 
     document.getElementById("change").innerHTML =
     `
-    <div class = "col-sm-2">
+    <div class = "col-sm-1">
 
   </div>
 
-  <div class = "col-sm-8">
+  <div class = "col-sm-10">
 
   <div class="card">
     <div class="card-body">
@@ -94,7 +157,7 @@ jQuery('#weather').click(function () {
 
 </div>
 
-<div class = "col-sm-2">
+<div class = "col-sm-1">
 
 </div>
 
@@ -102,5 +165,6 @@ jQuery('#weather').click(function () {
 
     
     `;
+    */
     
     });
