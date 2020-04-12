@@ -1,84 +1,71 @@
-
-
 .top {
-    background:rgba(255,255,255, 0.4);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .name {
-    color: coral;
-    font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 64px;
+  color: coral;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 64px;
 }
 
-
 #color {
-    color: #777777;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-
+  color: #777777;
+  font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
 #first {
- 
-    background: url(mountains.jpg) no-repeat center center fixed;
-    background-size: 100% 100%;
-    
+  background: url(mountains.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
 }
 
 #code {
-    background-image: url(morocco.png);
-        background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(morocco.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-
 
 .photos {
-    margin: 15px;
-    margin-left: 40px;
+  margin: 15px;
+  margin-left: 40px;
 }
 
-
-
 .image {
-    transform: rotate(180deg);
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 10px;
+  transform: rotate(180deg);
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
 }
 
 .paragraph {
-    font-size: 18px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    
+  font-size: 18px;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #form {
-    margin: 20px;
+  margin: 20px;
 }
 
-
-
 .middle {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .bio {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 #linkedin {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 #github {
-    margin-left: 30px;
+  margin-left: 30px;
+  color: white;
 }
 
 .col-sm-4 {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .links {
-    padding-top: 5%;
+  padding-top: 5%;
 }
-

@@ -1,89 +1,44 @@
-jQuery('#quiz').click(function () {
+jQuery("#covid").click(function () {
+  $(".name").html(`
 
-    $(".name").html(`
-
-    
-    
-    <i class="fa fa-home" id = "goHome"></i>
-
-    
-    `);
-
-    $("#goHome").click(function() {
-
-        var go_to_url = value = "index.html";
-        document.location.href = go_to_url;
-
-
-    });
-
-    $(".links").html(
-
-        `
-        <a href="https://bjork1.github.io/quiz/" target="_blank" class="btn btn-outline-info">View Site</a>
-
-        <a href="https://github.com/bjork1/quiz" target="_blank" class="btn btn-outline-warning">View Code</a>
-
-        
-        `
-    )
   
+  
+  <i class="fa fa-home" id = "goHome"></i>
 
-document.getElementById("change").innerHTML =
+  
+  `);
 
+  $("#goHome").click(function () {
+    var go_to_url = (value = "index.html");
+    document.location.href = go_to_url;
+  });
 
+  $(".links").html(
+    `
+      <a href="https://covid19-application.herokuapp.com/" target="_blank" class="btn btn-outline-info">View Site</a>
 
+      <a href="https://github.com/bjork1/covid-19" target="_blank" class="btn btn-outline-warning">View Code</a>
 
-`
+      
+      `
+  );
+
+  document.getElementById("change").innerHTML = `
 <div class = "col-sm-2">
 </div>
 
 <div class = "col-sm-8">
-<iframe src = "https://bjork1.github.io/quiz/" width = "100%" height = "500"></iframe>
+<iframe src = "https://covid19-application.herokuapp.com/" width = "100%" height = "500"></iframe>
 </div>
 
 <div class = "col-sm-2">
 </div>
 
 `;
-
-
-/*
-`
-<div class = "col-sm-2">
-  
-    </div>
-  
-    <div class = "col-sm-8">
-  
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Quiz</h5>
-        <p class="card-text">For this quiz, you will be tested on the capitals of various US cities. The quiz is timed and you will lose points for incorrect answers.</p>
-      
-        <a href="https://bjork1.github.io/quiz/" target="_blank" class="btn btn-outline-info">View Site</a>
-
-        <a href="https://github.com/bjork1/quiz" target="_blank" class="btn btn-outline-warning">View Code</a>
-      
-        </div>
-      <img src="Quiz.PNG" class="card-img-top" alt="...">
-    </div>
-  
-  
-  </div>
-  
-  <div class = "col-sm-2">
-  
-  </div>
-
-`;
-*/
-
 });
 
-jQuery('#weather').click(function () {
-
-    $(".name").html(`
+jQuery("#skills").click(function () {
+  $(".name").html(`
 
     
     
@@ -92,21 +47,83 @@ jQuery('#weather').click(function () {
     
     `);
 
-    $("#goHome").click(function() {
+  $("#goHome").click(function () {
+    var go_to_url = (value = "index.html");
+    document.location.href = go_to_url;
+  });
 
-        var go_to_url = value = "index.html";
-        document.location.href = go_to_url;
+  $(".links").html(
+    `
+        <a href="https://brakluner.github.io/SkillLearningApp/" target="_blank" class="btn btn-outline-info">View Site</a>
 
+        <a href="https://github.com/brakluner/SkillLearningApp" target="_blank" class="btn btn-outline-warning">View Code</a>
 
-    });
+        
+        `
+  );
 
+  document.getElementById("change").innerHTML = `
+<div class = "col-sm-2">
+</div>
 
-    document.getElementById("change").innerHTML =
+<div class = "col-sm-8">
+<iframe src = "https://brakluner.github.io/SkillLearningApp/" width = "100%" height = "500"></iframe>
+</div>
 
+<div class = "col-sm-2">
+</div>
 
+`;
+});
 
+jQuery("#quiz").click(function () {
+  $(".name").html(`
+  
+  
+  <i class="fa fa-home" id = "goHome"></i>
+  
+  `);
 
-`
+  $("#goHome").click(function () {
+    var go_to_url = (value = "index.html");
+    document.location.href = go_to_url;
+  });
+
+  $(".links").html(
+    `
+      <a href="https://bjork1.github.io/quiz/" target="_blank" class="btn btn-outline-info">View Site</a>
+      <a href="https://github.com/bjork1/quiz" target="_blank" class="btn btn-outline-warning">View Code</a>
+      
+      `
+  );
+
+  document.getElementById("change").innerHTML = `
+<div class = "col-sm-2">
+</div>
+<div class = "col-sm-8">
+<iframe src = "https://bjork1.github.io/quiz/" width = "100%" height = "500"></iframe>
+</div>
+<div class = "col-sm-2">
+</div>
+`;
+});
+
+jQuery("#weather").click(function () {
+  $(".name").html(`
+
+    
+    
+    <i class="fa fa-home" id = "goHome"></i>
+
+    
+    `);
+
+  $("#goHome").click(function () {
+    var go_to_url = (value = "index.html");
+    document.location.href = go_to_url;
+  });
+
+  document.getElementById("change").innerHTML = `
 <div class = "col-sm-1">
 </div>
 
@@ -119,8 +136,7 @@ jQuery('#weather').click(function () {
 
 `;
 
-$(".links").html(
-
+  $(".links").html(
     `
     <a href="https://bjork1.github.io/weather/" target="_blank" class="btn btn-outline-info">View Site</a>
 
@@ -128,43 +144,5 @@ $(".links").html(
 
     
     `
-)
-  
-
-/*
-
-    document.getElementById("change").innerHTML =
-    `
-    <div class = "col-sm-1">
-
-  </div>
-
-  <div class = "col-sm-10">
-
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Weather Application</h5>
-      <p class="card-text">This application can search for the weather details for any city in the world. It includes current weather and a five-day forecast.</p>
-
-      <a href="https://bjork1.github.io/weather/" target="_blank" class="btn btn-outline-info">View Site</a>
-
-      <a href="https://github.com/bjork1/weather" target="_blank" class="btn btn-outline-warning">View Code</a>
-
-      </div>
-    <img src="weather.PNG" class="card-img-top" alt="...">
-  </div>
-
-
-</div>
-
-<div class = "col-sm-1">
-
-</div>
-
-
-
-    
-    `;
-    */
-    
-    });
+  );
+});
